@@ -13,6 +13,26 @@
 
 ## Задание
 
+### Структура проекта:
+```text
+SoftwareDesignLab1AdvancedSpring/
+├── SoftwareDesignLab1AdvancedSpringApplication.java
+├── controller/
+│   └── BookController.java
+├── dto/
+│   └── BookMaskedDTO.java
+├── model/
+│   └── Book.java
+├── repository/
+│   ├── BookRepository.java
+│   └── InMemoryBookRepository.java
+└── util/
+    ├── BookFieldMask.java
+    ├── MaskUtils.java
+    └── PrintHelper.java
+
+```
+
 1. Сделайте domain model класс с хотя бы 5 полями, среди которых `int, string, float, enum`.
 ```java
 package com.example.softwaredesignlab1advancedspring.model;
